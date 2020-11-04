@@ -1,0 +1,30 @@
+body{  
+    background-image: url("woodBG.jpg");;
+}
+
+#title{
+  text-align: center;
+  color: white;
+}
+ /* Set the size of the div element that contains the map */
+ #map {
+    height: 400px;  /* The height is 400 pixels */
+    width: 70%;  /* The width is the width of the web page */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     }
+
+     #listing {
+      /*   background-color: aliceblue;*/
+        position: absolute;
+        width: 30%;
+        height: 400px;
+        display: flex;
+        overflow: auto;
+        left: 70%;
+        top: 7.5%;
+        cursor: pointer;
+        overflow-x: hidden;
+      }
+      
